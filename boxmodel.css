@@ -1,0 +1,24 @@
+.container{
+  border: 2px solid blue;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@keyframes float {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(30px);
+  }
+}
+
+.box{
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  animation: float 2000ms infinite alternate-reverse;
+  transition: all 300ms;
+}
