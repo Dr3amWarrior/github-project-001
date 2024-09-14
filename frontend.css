@@ -1,0 +1,20 @@
+h2 {color:blue}
+.Top{background-color:aqua;
+  border-top: 4px solid blue;
+  border-right: 12px solid blue;
+  border-bottom: 20px solid blue;
+  border-left: 2px solid blue;
+  width: 80px;
+  padding: 20px;
+}
+.p1{color: red}
+.p2{
+  color: green}
+  .p3{color:blue}
+section {
+  height: 50vh
+}
+.button{
+  padding:10px;
+
+}
